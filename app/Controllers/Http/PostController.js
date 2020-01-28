@@ -5,6 +5,8 @@ const Post = use('App/Models/Post');
 class PostController extends BaseController{
 
     constructor(){
+
+        super()
         this.model = Post
     }
 }

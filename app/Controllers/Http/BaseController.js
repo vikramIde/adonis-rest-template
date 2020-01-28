@@ -126,7 +126,7 @@ class BaseController {
     const page = this.request.input("page", 1)
 
     let query = this.model.query()
-    query = this.addWiths(query, this.getwiths())
+    // query = this.addWiths(query, this.getwiths())
     query = this.addWheres(query)
     query = this.addSearchables(query)
     
